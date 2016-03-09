@@ -1,52 +1,68 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Super2boy : 太2真人的博客">
+    <meta name="viewport" content="width=640">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
 
-    <title>Super2boy</title>
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Super2boy by super2boy</title>
   </head>
 
   <body>
+    <a id="forkme_banner" href="https://github.com/super2boy/super2boy">View on GitHub</a>
+    <div class="shell">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/super2boy/super2boy">View on GitHub</a>
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Super2boy</h1>
+            <h2>太2真人的博客</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
 
-          <h1 id="project_title">Super2boy</h1>
-          <h2 id="project_tagline">太2真人的博客</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/super2boy/super2boy/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/super2boy/super2boy/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a id="super2boy" class="anchor" href="#super2boy" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>super2boy</h1>
-
-<p>太2真人的博客</p>
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/super2boy/super2boy/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/super2boy/super2boy/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
       </section>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Super2boy maintained by <a href="https://github.com/super2boy">super2boy</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <p>我的第一篇博客</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/super2boy">super2boy</a> can be found on <a href="https://github.com/super2boy/super2boy">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
       </footer>
+
     </div>
 
     
-
   </body>
 </html>
